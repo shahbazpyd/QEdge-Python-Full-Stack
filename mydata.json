@@ -1,0 +1,1 @@
+{"name": "John", "age": 30, "married": true, "divorced": false, "children": ["Ann", "Bill"], "pets": null, "cars": [{"model": "BMW230", "mpg": 27.5}, {"model": "FordEdge", "mpg": 24.1}]}
