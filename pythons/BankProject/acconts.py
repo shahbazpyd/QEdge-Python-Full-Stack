@@ -59,6 +59,7 @@ class Sevingsaccount(Account):
     def get_balance(self):
         return self.balance
 
+
     
     
     
@@ -84,8 +85,6 @@ class Checkingaccount(Account):
             
     def get_balance(self):
         return self.balance
-    
-    
     
     
     
@@ -122,3 +121,8 @@ class Currentaccount(Account):
     def get_balance(self):
         return self.balance
 
+cacc=Currentaccount(500,1000)
+# cacc.credit(100)
+cacc.debit(1500)
+current_balance = cacc.get_balance()
+print(current_balance)
